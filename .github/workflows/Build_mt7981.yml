@@ -24,7 +24,7 @@ on:
           - 'false'
 
 env:
-  REPO_URL:  git clone --depth=1 https://github.com/hanwckf/immortalwrt-mt798x.git
+  REPO_URL:  git clone --depth 1 https://github.com/hanwckf/immortalwrt-mt798x.git
   REPO_BRANCH: openwrt-21.02
   FEEDS_CONF: feeds.conf.default
   CONFIG_FILE: 3.config
